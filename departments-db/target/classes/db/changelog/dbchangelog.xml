@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.2.xsd
+      http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.2.xsd">
+
+    <changeSet id="creating_departments_table" author="roman_karpiak">
+        <createTable tableName="departments">
+            <column name="id" type="BIGINT" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="department_name" type="varchar(50)"/>
+            <column name="creation_date" type="date"/>
+            <column name="main_department_id" type="BIGINT">
+                <constraints foreignKeyName="fk_main_department_id_departments" references="departments(id)"
+                             deleteCascade="true"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet id="creating_payroll_table" author="roman_karpiak">
+        <createTable tableName="payroll">
+            <column name="department_id" type="BIGINT">
+                <constraints primaryKey="true"
+                             nullable="false"
+                             foreignKeyName="fk_department_id_payroll"
+                references="departments(id)"/>
+            </column>
+            <column name="salary_fund" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+<!--    <changeSet id="add_column_to_departments_table" author="roman_karpiak">-->
+<!--        <addColumn tableName="departments">-->
+<!--            <column name="payroll_id" type="BIGINT"/>-->
+<!--        </addColumn>-->
+<!--    </changeSet>-->
+<!--    <changeSet id="add_foreign_key_to_departments_table" author="roman_karpiak">-->
+<!--        <addForeignKeyConstraint constraintName="fk_payroll_id_departments"-->
+<!--                                 baseTableName="departments"-->
+<!--                                 baseColumnNames="payroll_id"-->
+<!--                                 referencedTableName="payroll"-->
+<!--                                 referencedColumnNames="department_id"-->
+<!--                                 onDelete="CASCADE"/>-->
+
+<!--    </changeSet>-->
+    <changeSet id="create_tables_REVINFO_and_departments_aud" author="roman_karpiak">
+        <createTable tableName="REVINFO">
+            <column name="REV" type="BIGINT" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="action_completed_on" type="timestamp"/>
+            <column name="user_name" type="varchar(50)"/>
+        </createTable>
+        <createTable tableName="departments_aud">
+            <column name="id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="REV" type="BIGINT">
+                <constraints referencedTableName="REVINFO"
+                             foreignKeyName="fk_departments_aud_REVINFO"
+                             referencedColumnNames="REV"
+                             nullable="false"/>
+            </column>
+            <column name="REVTYPE" type="smallint"/>
+            <column name="department_name" type="varchar(50)"/>
+            <column name="creation_date" type="date"/>
+            <column name="main_department_id" type="BIGINT"/>
+        </createTable>
+        <addPrimaryKey tableName="departments_aud" columnNames="id,REV"/>
+    </changeSet>
+</databaseChangeLog>
+
+
+

@@ -1,0 +1,80 @@
+spring:
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        url: jdbc:postgresql://localhost:5432/departments_db
+        username: postgres
+        password: 54321
+    application:
+        name: departments-service
+
+    jpa:
+        properties:
+             hibernate:
+                  dialect: org.hibernate.dialect.PostgreSQL9Dialect
+                  jdbc.lob.non_contextual_creation: true
+                  envers:
+                    global_with_modified_flag: true
+             temp:
+                  use_jdbc_metadata_defaults: false
+        hibernate:
+             show_sql: true
+             format_sql: true
+             hbm2ddl.auto: validate
+    liquibase:
+        change-log: classpath:db/liquibase-changelog.xml
+    jackson:
+        serialization:
+              write-dates-as-timestamps: false
+        date-format: yyyy-MM-dd
+
+server:
+    port: 8080
+    error:
+       whitelabel:
+           enabled: false
+    include-stacktrace: always
+    include-message: always
+    include-binding-errors: always
+
+
+eureka:
+  client:
+    initial-instance-info-replication-interval-seconds: 2
+    instance-info-replication-interval-seconds: 1
+    registry-fetch-interval-seconds: 1
+    serviceUrl:
+      defaultZone: http://localhost:8791/eureka
+  instance:
+    preferIpAddress: true
+
+feign:
+  hystrix:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread: timeoutInMilliseconds=20000
+      falback:
+        enabled: false
+
+scheduling:
+  enabled: true
+
+payrollTracking:
+  delay: PT10S
+
+kafka:
+  bootstrap-address: localhost:9092
+
+
+topic1: created-department
+topic2: deleted-department

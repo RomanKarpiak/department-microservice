@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.2.xsd
+      http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.2.xsd">
+    <changeSet id="insert_data_into_departments" author="roman_karpiak">
+        <insert tableName="departments">
+            <column name="department_name" value="Chief Executive Officer"/>
+            <column name="creation_date" value="2014-11-01"/>
+        </insert>
+        <insert tableName="departments">
+            <column name="department_name" value="Finance"/>
+            <column name="creation_date" value="2014-11-02"/>
+            <column name="main_department_id" value="1"/>
+        </insert>
+        <insert tableName="departments">
+            <column name="department_name" value="Production"/>
+            <column name="creation_date" value="2014-11-02"/>
+            <column name="main_department_id" value="1"/>
+        </insert>
+        <insert tableName="departments">
+            <column name="department_name" value="Marketing"/>
+            <column name="creation_date" value="2014-11-02"/>
+            <column name="main_department_id" value="1"/>
+        </insert>
+        <insert tableName="departments">
+            <column name="department_name" value="HR"/>
+            <column name="creation_date" value="2014-11-02"/>
+            <column name="main_department_id" value="1"/>
+        </insert>
+        <insert tableName="departments">
+            <column name="department_name" value="Account"/>
+            <column name="creation_date" value="2014-11-02"/>
+            <column name="main_department_id" value="2"/>
+        </insert>
+        <insert tableName="departments">
+            <column name="department_name" value="Sales"/>
+            <column name="creation_date" value="2014-11-02"/>
+            <column name="main_department_id" value="4"/>
+        </insert>
+        <insert tableName="departments">
+            <column name="department_name" value="Advertising"/>
+            <column name="creation_date" value="2014-11-02"/>
+            <column name="main_department_id" value="4"/>
+        </insert>
+        <insert tableName="departments">
+            <column name="department_name" value="Recruit"/>
+            <column name="creation_date" value="2014-11-02"/>
+            <column name="main_department_id" value="5"/>
+        </insert>
+        <insert tableName="departments">
+            <column name="department_name" value="Benefits"/>
+            <column name="creation_date" value="2014-11-02"/>
+            <column name="main_department_id" value="5"/>
+        </insert>
+        <insert tableName="departments">
+            <column name="department_name" value="Special Project Operation"/>
+            <column name="creation_date" value="2015-11-02"/>
+            <column name="main_department_id" value="3"/>
+        </insert>
+        <insert tableName="departments">
+            <column name="department_name" value="Planning"/>
+            <column name="creation_date" value="2015-12-02"/>
+            <column name="main_department_id" value="11"/>
+        </insert>
+        <insert tableName="departments">
+            <column name="department_name" value="Supporting"/>
+            <column name="creation_date" value="2016-01-02"/>
+            <column name="main_department_id" value="11"/>
+        </insert>
+        <insert tableName="departments">
+            <column name="department_name" value="Development"/>
+            <column name="creation_date" value="2016-10-02"/>
+            <column name="main_department_id" value="3"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

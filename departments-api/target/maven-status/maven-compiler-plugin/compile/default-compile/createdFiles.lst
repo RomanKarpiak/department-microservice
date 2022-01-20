@@ -1,0 +1,15 @@
+com\roman\resource\feign\config\FeignConfig.class
+com\roman\resource\feign\fallback\EmployeesFeignClientFallback.class
+com\roman\resource\feign\fallback\EmployeesFallbackFactory.class
+com\roman\resource\controlleradvice\ApiErrorResponse.class
+com\roman\dto\DepartmentDto.class
+com\roman\resource\controlleradvice\ControllerAdviceErrorHandling.class
+com\roman\resource\controlleradvice\HystrixExceptionHandler.class
+com\roman\resource\controlleradvice\ApiErrorResponse$ApiErrorResponseBuilder.class
+com\roman\resource\feign\config\FallbackConfig.class
+com\roman\dto\OnCreate.class
+com\roman\resource\feign\exception\FallbackException.class
+com\roman\resource\feign\EmployeesFeignClient.class
+com\roman\dto\DepartmentInfoDto.class
+com\roman\resource\DepartmentController.class
+com\roman\dto\OnUpdate.class
