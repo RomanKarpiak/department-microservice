@@ -1,8 +1,8 @@
 package com.roman.resource.feign.fallback;
 
-import com.roman.dto.EmployeeFullInfoDto;
 import com.roman.resource.feign.EmployeesFeignClient;
 import com.roman.resource.feign.exception.FallbackException;
+import dto.employee.EmployeeFullInfoDto;
 import feign.FeignException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

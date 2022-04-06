@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="company-dto-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../company-dto/target/company-dto-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

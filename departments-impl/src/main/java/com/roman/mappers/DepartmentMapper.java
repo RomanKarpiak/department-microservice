@@ -1,9 +1,9 @@
 package com.roman.mappers;
 
-import com.roman.dto.DepartmentDto;
-import com.roman.dto.DepartmentInfoDto;
 import com.roman.entity.Department;
 import com.roman.service.DepartmentService;
+import dto.department.DepartmentDto;
+import dto.department.DepartmentInfoDto;
 import org.mapstruct.Context;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

@@ -1,6 +1,5 @@
 package com.roman.service;
 
-import com.roman.dto.EmployeeFullInfoDto;
 import com.roman.entity.Department;
 import com.roman.exceptions.DepartmentAlreadyExistsException;
 import com.roman.exceptions.DepartmentHasSubDepartmentException;
@@ -8,10 +7,18 @@ import com.roman.exceptions.DepartmentNotEmptyException;
 import com.roman.exceptions.DepartmentNotFoundException;
 import com.roman.repo.DepartmentRepo;
 import com.roman.resource.feign.EmployeesFeignClient;
+import dto.employee.EmployeeFullInfoDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.LinkedHashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Optional;
+import java.util.Queue;
+import java.util.Set;
 
 @Service
 @RequiredArgsConstructor

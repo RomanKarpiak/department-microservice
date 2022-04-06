@@ -1,8 +1,8 @@
 package com.roman.mappers;
 
-import com.roman.dto.EmployeeFullInfoDto;
 import com.roman.entity.Department;
 import com.roman.resource.feign.EmployeesFeignClient;
+import dto.employee.EmployeeFullInfoDto;
 import lombok.RequiredArgsConstructor;
 import org.mapstruct.Named;
 import org.springframework.stereotype.Component;

@@ -1,12 +1,19 @@
 package com.roman.service;
 
-import com.roman.dto.EmployeeFullInfoDto;
 import com.roman.entity.Department;
-import com.roman.exceptions.*;
+import com.roman.exceptions.DepartmentAlreadyExistsException;
+import com.roman.exceptions.DepartmentHasSubDepartmentException;
+import com.roman.exceptions.DepartmentNotEmptyException;
+import com.roman.exceptions.DepartmentNotFoundException;
 import com.roman.repo.DepartmentRepo;
 import com.roman.resource.feign.EmployeesFeignClient;
 import com.roman.resource.feign.exception.FallbackException;
-import org.junit.*;
+import dto.employee.EmployeeFullInfoDto;
+import org.junit.AfterClass;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
 import org.junit.rules.ExpectedException;
 import org.junit.runner.RunWith;
 import org.mockito.ArgumentMatchers;
@@ -17,7 +24,12 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Optional;
+import java.util.Set;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;

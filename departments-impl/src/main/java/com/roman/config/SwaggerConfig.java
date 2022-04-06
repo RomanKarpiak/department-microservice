@@ -41,7 +41,7 @@ public class SwaggerConfig {
         return new Contact(
                 "Roman Karpiak",
                 "https://epam.com",
-                "Roman_Karpiak@epam.com"
+                "roman.karpiak@gmail.com"
         );
     }
 }

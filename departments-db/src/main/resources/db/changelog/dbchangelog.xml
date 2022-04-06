@@ -57,10 +57,10 @@
                 <constraints nullable="false"/>
             </column>
             <column name="REV" type="BIGINT">
-                <constraints referencedTableName="REVINFO"
+                <constraints nullable="false"
                              foreignKeyName="fk_departments_aud_REVINFO"
-                             referencedColumnNames="REV"
-                             nullable="false"/>
+                             references="REVINFO(REV)"
+                             />
             </column>
             <column name="REVTYPE" type="smallint"/>
             <column name="department_name" type="varchar(50)"/>

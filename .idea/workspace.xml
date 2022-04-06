@@ -4,7 +4,76 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1389ade9-1735-4fac-a751-3c39daf62efe" name="Default Changelist" comment="" />
+    <list default="true" id="1389ade9-1735-4fac-a751-3c39daf62efe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/company_dto_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/employee_api_1_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/departments-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-api/src/main/java/com/roman/dto/DepartmentDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-api/src/main/java/com/roman/dto/DepartmentInfoDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-api/src/main/java/com/roman/dto/OnCreate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-api/src/main/java/com/roman/dto/OnUpdate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-api/src/main/java/com/roman/resource/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/departments-api/src/main/java/com/roman/resource/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-api/src/main/java/com/roman/resource/feign/EmployeesFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/departments-api/src/main/java/com/roman/resource/feign/EmployeesFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-api/src/main/java/com/roman/resource/feign/fallback/EmployeesFeignClientFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/departments-api/src/main/java/com/roman/resource/feign/fallback/EmployeesFeignClientFallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-api/target/classes/com/roman/dto/DepartmentDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-api/target/classes/com/roman/dto/DepartmentInfoDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-api/target/classes/com/roman/dto/OnCreate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-api/target/classes/com/roman/dto/OnUpdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-api/target/classes/com/roman/resource/DepartmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/departments-api/target/classes/com/roman/resource/DepartmentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-api/target/classes/com/roman/resource/feign/EmployeesFeignClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/departments-api/target/classes/com/roman/resource/feign/EmployeesFeignClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-api/target/classes/com/roman/resource/feign/fallback/EmployeesFeignClientFallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/departments-api/target/classes/com/roman/resource/feign/fallback/EmployeesFeignClientFallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-api/target/departments-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/departments-api/target/departments-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/departments-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/departments-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-db/src/main/resources/db/changelog/dbchangelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/departments-db/src/main/resources/db/changelog/dbchangelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-db/target/classes/db/changelog/dbchangelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/departments-db/target/classes/db/changelog/dbchangelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-db/target/departments-db-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/departments-db/target/departments-db-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-db/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/departments-db/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/src/main/java/com/roman/config/ProducerKafkaTemplateConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/src/main/java/com/roman/config/ProducerKafkaTemplateConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/src/main/java/com/roman/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/src/main/java/com/roman/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/src/main/java/com/roman/mappers/DepartmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/src/main/java/com/roman/mappers/DepartmentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/src/main/java/com/roman/mappers/EmployeeQualifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/src/main/java/com/roman/mappers/EmployeeQualifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/src/main/java/com/roman/resource/DepartmentControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/src/main/java/com/roman/resource/DepartmentControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/src/main/java/com/roman/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/src/main/java/com/roman/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/src/main/java/com/roman/service/DepartmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/src/main/java/com/roman/service/DepartmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/src/test/java/com/roman/service/DepartmentServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/src/test/java/com/roman/service/DepartmentServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/classes/com/roman/config/ProducerKafkaTemplateConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/classes/com/roman/config/ProducerKafkaTemplateConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/classes/com/roman/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/classes/com/roman/config/SwaggerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/classes/com/roman/mappers/DepartmentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/classes/com/roman/mappers/DepartmentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/classes/com/roman/mappers/DepartmentMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/classes/com/roman/mappers/DepartmentMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/classes/com/roman/mappers/EmployeeQualifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/classes/com/roman/mappers/EmployeeQualifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/classes/com/roman/resource/DepartmentControllerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/classes/com/roman/resource/DepartmentControllerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/classes/com/roman/service/DepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/classes/com/roman/service/DepartmentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/classes/com/roman/service/DepartmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/classes/com/roman/service/DepartmentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/departments-impl-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/departments-impl-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/generated-sources/annotations/com/roman/mappers/DepartmentMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/generated-sources/annotations/com/roman/mappers/DepartmentMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/generated-sources/annotations/com/roman/mappers/PayrollMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/generated-sources/annotations/com/roman/mappers/PayrollMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/jacoco-ut/jacoco-resources/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/jacoco-ut/jacoco-resources/prettify.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/jacoco-ut/jacoco-resources/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/jacoco-ut/jacoco-resources/prettify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/jacoco-ut/jacoco-resources/report.css" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/jacoco-ut/jacoco-resources/report.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/jacoco-ut/jacoco-resources/sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/jacoco-ut/jacoco-resources/sort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/jacoco-ut/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/jacoco-ut/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/jacoco-ut/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/jacoco-ut/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/site/jacoco/jacoco-resources/prettify.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/site/jacoco/jacoco-resources/prettify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/site/jacoco/jacoco-resources/report.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/site/jacoco/jacoco-resources/sort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/surefire-reports/TEST-com.roman.service.DepartmentServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/surefire-reports/TEST-com.roman.service.DepartmentServiceImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/surefire-reports/com.roman.service.DepartmentServiceImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/surefire-reports/com.roman.service.DepartmentServiceImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments-impl/target/test-classes/com/roman/service/DepartmentServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/departments-impl/target/test-classes/com/roman/service/DepartmentServiceImplTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +100,25 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -48,11 +136,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_ISSUES_SPLIT_PROPORTION" value="0.5512465" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../employees-microservice/employee-api/target/employee-api-1.0-SNAPSHOT.jar" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../company-dto/target/company-dto-1.0-SNAPSHOT.jar" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4160494" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -194,7 +283,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/departments_microservice$DepartmentServiceImplTest.ic" NAME="DepartmentServiceImplTest Coverage Results" MODIFIED="1626532020185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

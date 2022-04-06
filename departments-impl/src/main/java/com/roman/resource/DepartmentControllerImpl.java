@@ -1,11 +1,11 @@
 package com.roman.resource;
 
-import com.roman.dto.DepartmentDto;
-import com.roman.dto.DepartmentInfoDto;
-import com.roman.dto.EmployeeFullInfoDto;
 import com.roman.entity.Department;
 import com.roman.mappers.DepartmentMapper;
 import com.roman.service.DepartmentService;
+import dto.department.DepartmentDto;
+import dto.department.DepartmentInfoDto;
+import dto.employee.EmployeeFullInfoDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;

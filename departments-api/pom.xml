@@ -111,8 +111,8 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.roman</groupId>
-            <artifactId>employee-api</artifactId>
+            <groupId>com.karpiak</groupId>
+            <artifactId>company-dto</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

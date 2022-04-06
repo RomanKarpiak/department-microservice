@@ -1,7 +1,7 @@
 package com.roman.service;
 
-import com.roman.dto.EmployeeFullInfoDto;
 import com.roman.entity.Department;
+import dto.employee.EmployeeFullInfoDto;
 
 import java.util.List;
 import java.util.Set;
